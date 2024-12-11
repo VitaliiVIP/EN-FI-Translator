@@ -10,13 +10,13 @@
         <form method="post" action="/translate">
             <div class="input-container">
                 <label for="text_to_translate">English</label>
-                <textarea id="text_to_translate" name="text_to_translate" rows="1" cols="50">{{ text_to_translate }}</textarea>
+                <textarea id="text_to_translate" name="text_to_translate" rows="1" cols="50">{{text_to_translate}}</textarea>
             </div>
             <input type="submit" value="Translate">
             <div class="translation-container">
                 <label for="translation_output">Suomi</label>
                 <div class="translation" id="translation_output">
-                    <p>{{ translation or " "}}</p>
+                    <p>{{translation or " "}}</p>
                 </div>
             </div>
         </form>
