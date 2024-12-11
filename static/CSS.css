@@ -1,0 +1,83 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: #020226;
+    margin: 70px 0;
+    text-align: center;
+    font-size: 40pt;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid #020226;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.translation-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea{
+    width: 600px;
+    height: 140px;
+    margin: 5px 10px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.translation{
+    width: 600px;
+    height: 160px;
+    margin: 5px 10px;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: whitesmoke;
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.translation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 2px solid #020226;
+    border-radius: 2px;
+    background-color: white;
+}
+
+label {
+    font-size: 32px;
+    margin-bottom: 5px;
+}

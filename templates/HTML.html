@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Translator</title>
+    <link rel="stylesheet" type="text/css" href="../static/CSS.css">
+</head>
+<body>
+    <h1>English to Finnish Translator</h1>
+    <div class="form-container">
+        <form method="post" action="/translate">
+            <div class="input-container">
+                <label for="text_to_translate">English</label>
+                <textarea id="text_to_translate" name="text_to_translate" rows="1" cols="50">{{ text_to_translate }}</textarea>
+            </div>
+            <input type="submit" value="Translate">
+            <div class="translation-container">
+                <label for="translation_output">Suomi</label>
+                <div class="translation" id="translation_output">
+                    <p>{{ translation or " "}}</p>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
