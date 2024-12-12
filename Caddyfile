@@ -1,0 +1,4 @@
+http://13.60.232.180 {
+    reverse_proxy localhost:8000
+    }
+
